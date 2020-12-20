@@ -1,0 +1,98 @@
+:root {
+  --background-color: black;
+  --primary-color: #e5e7eb;
+  --secondary-color: #fbbf24;
+}
+
+.App {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+.movieBody {
+  border: 5px solid var(--secondary-color);
+  padding: 0rem 1rem;
+  margin: 1rem;
+}
+
+.movieBtn {
+  margin: 1rem 1rem 1rem 0;
+  text-align: left;
+}
+
+.movBtn {
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: 2px solid var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.movBtn:hover {
+  color: var(--background-color);
+  background-color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+.movBtn:focus {
+  outline: none;
+}
+
+.movieList {
+  /* border: 5px solid var(--primary-color); */
+}
+
+.movies {
+  /* height: 98px; */
+  margin-bottom: 2rem;
+  border-top: 2px solid var(--primary-color);
+  padding-top: 0.5rem;
+}
+
+.listOfMovie {
+  margin: 0rem 0 1rem 0;
+}
+
+.movie {
+  margin: 0 0 0 5rem;
+  text-align: left;
+}
+
+.movieName {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0.3rem;
+  color: var(--primary-color);
+}
+
+.movieDesp {
+  font-size: 75%;
+  color: var(--primary-color);
+}
+
+.movieType {
+  font-size: 75%;
+  color: var(--primary-color);
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  padding-bottom: 0.3rem;
+}
+
+.movieRate {
+  font-size: 75%;
+  color: var(--primary-color);
+  padding-bottom: 0.3rem;
+}
+
+.movieImg {
+  display: inline;
+  float: left;
+}
