@@ -16,8 +16,8 @@ Molist is movie list app, which has list of movies separated by genre. Comedy, S
 
 ## Connect with me
 
-[Twitter](https://www.twitter.com/virendra_wadher)
-[Github](https://www.github.com/virendrawadher)
-[LinkedIn](https://www.linkedin.com/in/virendra-wadher-042741155/)
+- [Twitter](https://www.twitter.com/virendra_wadher)
+- [Github](https://www.github.com/virendrawadher)
+- [LinkedIn](https://www.linkedin.com/in/virendra-wadher-042741155/)
 
-Created by Virendra
+###Created by Virendra
