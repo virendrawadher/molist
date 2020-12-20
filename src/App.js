@@ -4,7 +4,6 @@ import molist from "./database.js";
 
 export default function App() {
   const [movieList, setMovieList] = useState("All");
-  // var listMovie = Object.keys(molist);
   function clickHandler(buttons) {
     setMovieList(buttons);
   }
@@ -38,7 +37,7 @@ export default function App() {
                   ></img>
                   <p className="movie movieName">{movieL.movie_name} </p>
                   <p className="movie movieType">{movieL.type} </p>
-                  <p className="movie movieRate"> ⭐ {movieL.rating} </p>
+                  <p className="movie movieRate">⭐ {movieL.rating} </p>
                   <p className="movie movieDesp">{movieL.description} </p>
                 </div>
               </div>
